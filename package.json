@@ -1,0 +1,26 @@
+{
+  "name": "audiophile-ecommerce-react",
+  "version": "1.0.0",
+  "description": "An e-commerce website with technological products",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server",
+    "dev": "concurrently -n CLIENT,SERVER -c blue,green \"npm run client\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammern-stack/audiophile-ecommerce-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sammern-stack/audiophile-ecommerce-react/issues"
+  },
+  "homepage": "https://github.com/sammern-stack/audiophile-ecommerce-react#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
